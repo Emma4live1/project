@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    background: blue;
+    padding: 20px;
+    display: flex;
+    color: white;
+
+}
+
+.links {
+    float: left;
+    padding-left: 55%;
+
+}
+
+.links a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}

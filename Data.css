@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    /* display: flex;
+        justify-content: space-between; */
+    padding: 25px;
+    background: blue;
+    color: #fff;
+}
+    .main ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 8px;
+    
+}
+.main ul li a{
+text-decoration: none;
+color: #fff;
+}
+.main ul li a:hover{
+    color: orangered;
+    transition: 2s;
+}
+.menu{
+    display: none;
+}
+.main ul li:hover .menu{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background: blue;
+}
+.main ul li:hover .menu ul{
+    display: block;
+    margin: 10px;
+}
+.main ul li:hover .menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.main ul li:hover .menu ul li:last-child{
+    border-bottom: none;
+}
+
+
+.home{
+    padding: 20px;
+    position: absolute;
+        top: 50%;
+         left: 20%;
+        transform: translate(-50%, -50%);
+        border: 1px solid blue;
+        box-shadow: 20px;
+        width: 35%;
+        height: 80%;
+        
+        
+        margin: auto;
+        margin-top: 30px;
+}
+
+.profile{
+    font-weight: 700;
+    margin-right: 10px;
+    text-decoration: overline blue;
+    
+}
+
+.y{
+    margin-top: 60px;
+    margin-right: 20px;
+    float: left;
+}
